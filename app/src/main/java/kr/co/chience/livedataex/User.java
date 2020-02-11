@@ -1,5 +1,7 @@
 package kr.co.chience.livedataex;
 
+import androidx.databinding.ObservableBoolean;
+
 public class User {
 
     public String name;
@@ -10,5 +12,6 @@ public class User {
         this.email = email;
     }
 
+    public ObservableBoolean isMark = new ObservableBoolean(false);
 
 }

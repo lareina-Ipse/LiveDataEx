@@ -15,13 +15,16 @@
 
 
     <RelativeLayout
-        
+        android:onClick="@{()->viewmodel.itemClick(user)}"
+        android:clickable="true"
+        android:focusable="true"
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp">
 
         <TextView
+            android:textColor="@{user.isMark ? @color/markText : @color/normalText}"
             android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
