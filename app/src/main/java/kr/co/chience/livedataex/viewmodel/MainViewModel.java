@@ -1,4 +1,4 @@
-package kr.co.chience.livedataex;
+package kr.co.chience.livedataex.viewmodel;
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
@@ -6,8 +6,10 @@ import androidx.lifecycle.ViewModel;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainViewModel extends ViewModel {
+import kr.co.chience.livedataex.Interface.MainNavigator;
+import kr.co.chience.livedataex.model.User;
 
+public class MainViewModel extends ViewModel {
     private MutableLiveData<List<User>> user = new MutableLiveData<>();
     private MainNavigator navigator;
 
@@ -33,4 +35,5 @@ public class MainViewModel extends ViewModel {
     public void itemClick(User user) {
         navigator.onItemClick(user);
     }
+
 }

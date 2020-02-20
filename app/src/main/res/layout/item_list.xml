@@ -6,11 +6,11 @@
 
         <variable
             name="user"
-            type="kr.co.chience.livedataex.User" />
+            type="kr.co.chience.livedataex.model.User" />
 
         <variable
             name="viewmodel"
-            type="kr.co.chience.livedataex.MainViewModel" />
+            type="kr.co.chience.livedataex.viewmodel.MainViewModel" />
     </data>
 
 

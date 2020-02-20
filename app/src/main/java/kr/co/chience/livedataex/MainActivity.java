@@ -8,7 +8,11 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.os.Bundle;
 
+import kr.co.chience.livedataex.Interface.MainNavigator;
+import kr.co.chience.livedataex.adapter.MainAdapter;
 import kr.co.chience.livedataex.databinding.ActivityMainBinding;
+import kr.co.chience.livedataex.model.User;
+import kr.co.chience.livedataex.viewmodel.MainViewModel;
 
 public class MainActivity extends AppCompatActivity implements MainNavigator {
 

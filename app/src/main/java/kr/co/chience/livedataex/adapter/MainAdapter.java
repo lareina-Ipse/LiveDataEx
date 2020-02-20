@@ -1,4 +1,4 @@
-package kr.co.chience.livedataex;
+package kr.co.chience.livedataex.adapter;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
@@ -9,7 +9,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+import kr.co.chience.livedataex.R;
 import kr.co.chience.livedataex.databinding.ItemListBinding;
+import kr.co.chience.livedataex.model.User;
+import kr.co.chience.livedataex.viewmodel.MainViewModel;
 
 public class MainAdapter extends RecyclerView.Adapter<MainAdapter.MainViewHolder> {
 

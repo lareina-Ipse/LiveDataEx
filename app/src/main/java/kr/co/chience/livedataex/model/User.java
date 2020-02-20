@@ -1,9 +1,8 @@
-package kr.co.chience.livedataex;
+package kr.co.chience.livedataex.model;
 
 import androidx.databinding.ObservableBoolean;
 
 public class User {
-
     public String name;
     public String email;
 
@@ -13,5 +12,4 @@ public class User {
     }
 
     public ObservableBoolean isMark = new ObservableBoolean(false);
-
 }
